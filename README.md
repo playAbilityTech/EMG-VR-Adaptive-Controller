@@ -7,7 +7,7 @@ This project allows you to connect a MyoWare sensor to a standard electronic boa
 
 
 ## Required Materials
-- MyoWare Sensor
+- [MyoWare Sensor](https://www.sparkfun.com/products/13723)
 - Standard electronic board (Arduino, ESP, etc.)
 - 9gr model motor
 - Oculus Quest controller
@@ -26,16 +26,6 @@ In this project, a potentiometer is used to adjust the trigger threshold value i
 - Connect the MyoWare sensor output to the pin defined in myowareInPin (pin 12 by default).
 - Connect the threshold potentiometer to the pin defined in thresholdInPin (pin 15 by default).
 - Connect the 9gr model motor to the pin defined in servoPin (pin 27 by default).
-
-         +5V       GND       A0        D12
-          |         |         |         |
-         Potentiometer      MyoWare   Servo Motor
-               |               |         |
-               +----- A15 -----+         |
-                                        |
-                                       D27
-                                        |
-                                       GND
 
 
 ## Code Functionality
@@ -56,25 +46,11 @@ To change the initial threshold value, modify the following line in the code:
 ```cpp
 int threshold = 2000;
 ```
-
-For example, if you want to set the initial threshold value to 1500, the modified line would be:
-
-```cpp
-int threshold = 1500;
-```
-
 To adjust the motor angles, modify the arguments of the myservo.write() function:
 
 ```cpp
 myservo.write(80); // Move the servo motor to the 80-degree position
 myservo.write(130); // Move the servo motor to the 130-degree position
-```
-
-For example, if you want the motor to move to 60 degrees when pressed and 140 degrees when not pressed, the modified lines would be:
-
-```cpp
-myservo.write(60); // Move the servo motor to the 60-degree position
-myservo.write(140); // Move the servo motor to the 140-degree position
 ```
 
 
