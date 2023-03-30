@@ -25,7 +25,7 @@ In this project, a potentiometer is used to adjust the trigger threshold value i
 ## Connecting Components
 - Connect the MyoWare sensor output to the pin defined in myowareInPin (pin 12 by default).
 - Connect the threshold potentiometer to the pin defined in thresholdInPin (pin 15 by default).
-- Connect the 9gr model motor to the pin defined in servoPin (pin 27 by default).
+- Connect the 9gr servo motor to the pin defined in servoPin (pin 27 by default).
 
 
 ## Code Functionality
