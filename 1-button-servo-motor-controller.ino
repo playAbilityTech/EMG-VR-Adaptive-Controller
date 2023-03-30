@@ -1,6 +1,6 @@
 #include <Servo.h> // Include the Servo library to control the motor
 
-#define thresholdInPin 15 // Define the input pin for the MyoWare sensor threshold value
+#define thresholdInPin 15 // Define the input pin for the threshold set by a potentiometer 
 #define myowareInPin 12 // Define the input pin for the MyoWare sensor value
 
 Servo myservo; // Create a Servo object
