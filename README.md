@@ -27,6 +27,17 @@ In this project, a potentiometer is used to adjust the trigger threshold value i
 - Connect the threshold potentiometer to the pin defined in thresholdInPin (pin 15 by default).
 - Connect the 9gr model motor to the pin defined in servoPin (pin 27 by default).
 
+         +5V       GND       A0        D12
+          |         |         |         |
+         Potentiometer      MyoWare   Servo Motor
+               |               |         |
+               +----- A15 -----+         |
+                                        |
+                                       D27
+                                        |
+                                       GND
+
+
 ## Code Functionality
 The code reads the analog values from the MyoWare sensor and the trigger threshold. If the value read by the MyoWare sensor exceeds the threshold, the 9gr model motor is activated, simulating a press on the Oculus Quest controller.
 
