@@ -9,7 +9,7 @@ This project allows you to connect a MyoWare sensor to a standard electronic boa
 ## Required Materials
 - [MyoWare Sensor](https://www.sparkfun.com/products/13723)
 - Standard electronic board (Arduino, ESP, etc.)
-- 9gr model motor
+- 9gr servo motor
 - Oculus Quest controller
 - Hot glue
 
