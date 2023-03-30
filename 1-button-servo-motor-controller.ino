@@ -7,7 +7,15 @@ Servo myservo; // Create a Servo object
 static const int servoPin = 27; // Define the pin for the servo motor
 
 int myowareValue = 0; // Variable to store the MyoWare sensor value
-int threshold = 2000; // Initial threshold value to compare with the MyoWare sensor value
+
+// Note about the treshold: the analog-to-digital converter (ADC) resolution varies between boards:
+// - Arduino boards have a 10-bit ADC with a range of 0-1023
+// - ESP boards (such as ESP32) have a 12-bit ADC with a range of 0-4095
+// Depending on the board you are using, you may need to adjust the scaling factor in the code
+// to account for these differences in ADC resolution.
+
+int threshold = 700; // Initial threshold value to compare with the MyoWare sensor value
+
 
 void setup() {
   pinMode(myowareInPin, INPUT); // Set the MyoWare sensor pin as an input
