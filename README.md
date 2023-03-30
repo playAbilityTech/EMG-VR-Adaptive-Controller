@@ -53,10 +53,6 @@ myservo.write(80); // Move the servo motor to the 80-degree position
 myservo.write(130); // Move the servo motor to the 130-degree position
 ```
 
-
-## License
-This project is available under the MIT License. See the LICENSE file for more information.
-
 ## Updating Pins
 To update the connection pins, modify the following lines in the code:
 
@@ -78,5 +74,9 @@ Make sure to connect the components to the corresponding pins on your electronic
 The MyoWare Sensor is a muscle activity measurement sensor (electromyography or EMG) developed by Advancer Technologies. It is designed to be used with microcontrollers such as Arduino and allows detecting muscle contractions.
 
 ### Documentation
-- MyoWare Muscle Sensor Guide (MyoWare sensor datasheet)
-- MyoWare Sensor User Guide (SparkFun)
+- [MyoWare Muscle Sensor Guide](https://cdn.sparkfun.com/assets/learn_tutorials/5/8/3/MyoWare_Muscle_Sensor_v3_-_Product_Brief.pdf) (MyoWare sensor datasheet)
+- [MyoWare Sensor User Guide](https://learn.sparkfun.com/tutorials/myoware-muscle-sensor-kit) (SparkFun)
+
+
+## License
+This project is available under the MIT License. See the LICENSE file for more information.
