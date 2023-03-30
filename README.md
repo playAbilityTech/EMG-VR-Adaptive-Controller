@@ -1,6 +1,5 @@
-# Electromyographic-Quest-VR-Adaptive-Controller
+🦾🔌🎮👓🌟
 
-## MyoWare Oculus Quest Project
 This project allows you to connect a MyoWare sensor to a standard electronic board (such as Arduino, ESP, etc.) to trigger small 9gr model motors directly attached to an Oculus Quest controller, simply fixed with hot glue.
 
 ## Required Materials
@@ -9,6 +8,8 @@ This project allows you to connect a MyoWare sensor to a standard electronic boa
 - 9gr model motor
 - Oculus Quest controller
 - Hot glue
+
+In this project, a potentiometer is used to adjust the trigger threshold value in real-time. By connecting the potentiometer to the threshold pin, you can increase or decrease the threshold value by turning the potentiometer, effectively controlling the sensitivity of the MyoWare sensor to muscle contractions. This makes it easy to fine-tune the system according to the user's needs without reprogramming the electronic board.
 
 ## Installation
 1. Clone this repository on your computer.
@@ -19,7 +20,7 @@ This project allows you to connect a MyoWare sensor to a standard electronic boa
 
 ## Connecting Components
 - Connect the MyoWare sensor output to the pin defined in myowareInPin (pin 12 by default).
-- Connect the MyoWare trigger threshold to the pin defined in thresholdInPin (pin 15 by default).
+- Connect the threshold potentiometer to the pin defined in thresholdInPin (pin 15 by default).
 - Connect the 9gr model motor to the pin defined in servoPin (pin 27 by default).
 
 ## Code Functionality
