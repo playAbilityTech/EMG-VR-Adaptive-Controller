@@ -1,16 +1,9 @@
 
 # Electromyographic Quest VR Adaptive Controller 🦾🔌🎮👓🌟
 
-<table>
-  <tr>
-    <td>
-      This project allows you to connect a MyoWare sensor to a standard electronic board (such as Arduino, ESP, etc.) to trigger small 9gr model motors directly attached to an Oculus Quest controller, simply fixed with hot glue.
-    </td>
-    <td>
-      <img src="https://i.imgur.com/3QhD80Ul.jpg" alt="Nicolas Huchet and Valentin Squirelo tinkering custom EMG vr controller" />
-    </td>
-  </tr>
-</table>
+This project allows you to connect a MyoWare sensor to a standard electronic board (such as Arduino, ESP, etc.) to trigger small 9gr model motors directly attached to an Oculus Quest controller, simply fixed with hot glue.
+
+![Nicolas Huchet and Valentin Squirelo tinkering adaptive controllers with Oculus Quest 2](https://i.imgur.com/3QhD80Ul.jpg)
 
 
 ## Required Materials
