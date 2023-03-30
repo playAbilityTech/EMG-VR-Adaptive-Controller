@@ -35,6 +35,33 @@ The code is divided into several parts:
 ## Customization
 You can adjust the threshold values and motor angles by modifying the threshold variable and the arguments of the myservo.write() function, respectively.
 
+To change the initial threshold value, modify the following line in the code:
+
+```cpp
+int threshold = 2000;
+```
+
+For example, if you want to set the initial threshold value to 1500, the modified line would be:
+
+```cpp
+int threshold = 1500;
+```
+
+To adjust the motor angles, modify the arguments of the myservo.write() function:
+
+```cpp
+myservo.write(80); // Move the servo motor to the 80-degree position
+myservo.write(130); // Move the servo motor to the 130-degree position
+```
+
+For example, if you want the motor to move to 60 degrees when pressed and 140 degrees when not pressed, the modified lines would be:
+
+```cpp
+myservo.write(60); // Move the servo motor to the 60-degree position
+myservo.write(140); // Move the servo motor to the 140-degree position
+```
+
+
 ## License
 This project is available under the MIT License. See the LICENSE file for more information.
 
